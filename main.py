@@ -106,7 +106,8 @@ from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from PIL import Image
 import numpy as np
-import tflite_runtime.interpreter as tflite
+import tensorflow as tf
+tflite = tf.lite
 import io
 
 # ── App ───────────────────────────────────────────────────────────────────
