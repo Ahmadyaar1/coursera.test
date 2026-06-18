@@ -3,4 +3,4 @@ uvicorn[standard]==0.29.0
 pillow==10.3.0
 numpy==1.26.4
 python-multipart==0.0.9
-tensorflow-cpu==2.15.0
+tensorflow-cpu==2.16.1
