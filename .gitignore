@@ -1,0 +1,30 @@
+# Flutter / Dart
+gsm/.dart_tool/
+gsm/build/
+gsm/.flutter-plugins
+gsm/.flutter-plugins-dependencies
+gsm/.packages
+gsm/.pub-cache/
+gsm/.pub/
+gsm/ios/Pods/
+gsm/ios/.symlinks/
+gsm/android/.gradle/
+gsm/android/local.properties
+gsm/android/captures/
+gsm/*.iml
+
+# Python / Backend
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/**/*.pyc
+backend/.venv/
+backend/venv/
+backend/.env
+
+# ML model (large binary — store separately or via Git LFS)
+backend/**/*.tflite
+
+# OS
+.DS_Store
+Thumbs.db
